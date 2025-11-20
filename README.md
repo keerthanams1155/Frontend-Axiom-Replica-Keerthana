@@ -2,13 +2,14 @@
 
 A pixel-perfect replica of Axiom Trade's token discovery table built with Next.js 14, TypeScript, and modern React patterns.
 
-## Features
+## Core Features:
+- All token columns(New pairs, Final Stretch, Migrated)
+- Implement variety: popover, tooltip, modal, sorting
+- Different interaction patterns: hover effects, click actions
+- Real-time price updates (WebSocket mock) with smooth color transitions
+- Loading states: skeleton, shimmer, progressive loading, error boundaries
+- Pixel-perfect visual match to website (≤ 2 px diff verified with a visual-regression tool)
 
-- ✅ All token columns (New pairs, Final Stretch, Migrated)
-- ✅ Interactive components: Popover, Tooltip, Modal, Sorting
-- ✅ Real-time price updates with WebSocket mock and smooth color transitions
-- ✅ Comprehensive loading states: Skeleton, Shimmer, Progressive loading, Error boundaries
-- ✅ Pixel-perfect design matching Axiom Trade's interface
 
 ## Tech Stack
 
@@ -52,19 +53,5 @@ npm run dev
 └── types/               # TypeScript type definitions
 ```
 
-## Performance
 
-- Memoized components to prevent unnecessary re-renders
-- Optimized WebSocket updates with batched state changes
-- No layout shifts with proper skeleton loaders
-- Target: <100ms interactions
-- Lighthouse score: ≥90 (mobile & desktop)
-
-## Code Quality
-
-- Comprehensive TypeScript typing
-- Error boundaries for graceful error handling
-- Documented complex logic
-- DRY principles throughout
-- Accessible components (ARIA compliant)
 
