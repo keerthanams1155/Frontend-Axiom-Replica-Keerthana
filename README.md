@@ -4,7 +4,6 @@ A pixel-perfect replica of Axiom Trade's token discovery table built with Next.j
 
 ## Core Features:
 - All token columns(New pairs, Final Stretch, Migrated)
-- Implement variety: popover, tooltip, modal, sorting
 - Different interaction patterns: hover effects, click actions
 - Real-time price updates (WebSocket mock) with smooth color transitions
 - Loading states: skeleton, shimmer, progressive loading, error boundaries
